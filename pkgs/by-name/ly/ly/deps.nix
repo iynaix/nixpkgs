@@ -89,16 +89,18 @@ linkFarm name [
     name = "clap-0.11.0-oBajB-HnAQDPCKYzwF7rO3qDFwRcD39Q0DALlTSz5H7e";
     path = fetchZigArtifact {
       name = "clap";
-      url = "https://github.com/Hejsil/zig-clap/archive/refs/tags/0.11.0.tar.gz";
-      hash = "sha256-fDWd7EQYZuAlBlrpynBuznK89OiiX74xcZsekv84lkg=";
+      url = "git+https://github.com/Hejsil/zig-clap#5289e0753cd274d65344bef1c114284c633536ea";
+      hash = "sha256-XytqwtoE0xaR43YustgK68sAQPVfC0Dt+uCs8UTfkbU=";
+      rev = "5289e0753cd274d65344bef1c114284c633536ea";
     };
   }
   {
     name = "zigini-0.3.3-36M0FRJJAADZVq5HPm-hYKMpFFTr0OgjbEYcK2ijKZ5n";
     path = fetchZigArtifact {
       name = "zigini";
-      url = "https://github.com/AnErrupTion/zigini/archive/9281f47702b57779e831d7618e158abb8eb4d4a2.tar.gz";
-      hash = "sha256-/g0az0MRQOmww0DhZQo/1YH2qkJcscoCpaoW4pWGVIk=";
+      url = "git+https://github.com/AnErrupTion/zigini?ref=zig-0.15.0#9281f47702b57779e831d7618e158abb8eb4d4a2";
+      hash = "sha256-NfFP5gcAMi/5fXSp/uT7FhSJAtEbS/0Cbt4j0Uogj8E=";
+      rev = "9281f47702b57779e831d7618e158abb8eb4d4a2";
     };
   }
   {
@@ -110,12 +112,12 @@ linkFarm name [
     };
   }
   {
-    name = "N-V-__8AAGcUBQAa5vov1Yi_9AXEffFQ1e2KsXaK4dgygRKq";
+    name = "N-V-__8AAOEWBQDt5tNdIzIFY6n8DdZsCP-6MyLoNS20wgpA";
     path = fetchZigArtifact {
       name = "termbox2";
-      url = "git+https://github.com/AnErrupTion/termbox2?ref=master#290ac6b8225aacfd16851224682b851b65fcb918";
-      hash = "sha256-of95/wJeCTWI3p7NxvnUlb618qffUZv2YxgBgzp+crs=";
-      rev = "290ac6b8225aacfd16851224682b851b65fcb918";
+      url = "git+https://github.com/AnErrupTion/termbox2?ref=master#496730697c662893eec43192f48ff616c2539da6";
+      hash = "sha256-8XAPH1f1qQuOROBw/duF3Q7HNRgHbEDsKOgeEpG9ScY=";
+      rev = "496730697c662893eec43192f48ff616c2539da6";
     };
   }
 ]

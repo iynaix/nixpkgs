@@ -17,14 +17,14 @@ let
 in
 stdenv.mkDerivation (finalAttrs: {
   pname = "ly";
-  version = "1.3.1";
+  version = "1.4.0";
 
   src = fetchFromGitea {
     domain = "codeberg.org";
     owner = "fairyglade";
     repo = "ly";
-    tag = "v${finalAttrs.version}";
-    hash = "sha256-BelsR/+sfm3qdEnyf4bbadyzuUVvVPrPEhdZaNPLxiE=";
+    rev = "2eea68307887721065fe912647463bd2b7fddcbb";
+    hash = "sha256-ak1HrvTs2jcDbvaSVIQacB2v729gfFKXmBOPqTIIwi8=";
   };
 
   nativeBuildInputs = [
